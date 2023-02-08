@@ -1,0 +1,8 @@
+<project>
+  <modelVersion>1.0.0</modelVersion>
+  <groupId>com.github.thanhdt1998</groupId>
+  <artifactId>sdk-test</artifactId>
+  <version>v1</version>
+  <packaging>aar</packaging>
+  <name>vietmap-test-sdk</name>
+</project>
