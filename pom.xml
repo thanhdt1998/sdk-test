@@ -1,5 +1,5 @@
 <project>
-  <modelVersion>1.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.thanhdt1998</groupId>
   <artifactId>sdk-test</artifactId>
   <version>v1</version>
