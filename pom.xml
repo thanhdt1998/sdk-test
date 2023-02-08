@@ -6,7 +6,7 @@
   <packaging>aar</packaging>
   <name>vietmap-test-sdk</name>
 </project> -->
-<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" 
      xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" 
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -14,6 +14,7 @@
   <groupId>com.github.thanhdt1998</groupId>
   <artifactId>vietmap-test-sdk</artifactId>
   <version>1.0</version>
+  <name>vietmap-test-sdk</name>
   <!-- <dependencies>
     <dependency>
       <groupId>androidx.appcompat</groupId>
@@ -27,3 +28,4 @@
     </dependency>
   </dependencies> -->
 </project>
+<!-- </xml> -->
