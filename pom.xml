@@ -11,10 +11,29 @@
      xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" 
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.github.thanhdt1998</groupId>
+  <groupId>vn.vietmap.vietmapsdk</groupId>
   <artifactId>vietmap-test-sdk</artifactId>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <name>vietmap-test-sdk</name>
+  <packaging>aar</packaging>
+   <build>
+    <plugins>
+      <plugin>
+        <groupId>com.simpligility.maven.plugins</groupId>
+        <artifactId>android-maven-plugin</artifactId>
+        <version>4.1.0</version>
+        <extensions>true</extensions>
+        <configuration>
+          <encoding>utf8</encoding>
+          <source>1.8</source>
+          <target>1.8</target>
+          <sign>
+            <debug>false</debug>
+          </sign>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
   <!-- <dependencies>
     <dependency>
       <groupId>androidx.appcompat</groupId>
